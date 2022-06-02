@@ -1,4 +1,4 @@
-const apiKey = process.env.API_KEY;
+const apiKey = config.API_KEY;
 
 function onGeo(position) {
   const lat = position.coords.latitude;
