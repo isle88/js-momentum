@@ -1,0 +1,102 @@
+body {
+  color: whitesmoke;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.weather {
+  text-align: right;
+  font-size: 35px;
+}
+.city {
+  font-size: 17px;
+}
+
+.clock {
+  font-size: 130px;
+  margin-bottom: 20px;
+}
+
+.greeting {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  border: 1px;
+  border-bottom: 1px solid white;
+  margin: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  color: black;
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.todo {
+  margin-right: 30px;
+}
+
+.quote {
+  margin-top: 5%;
+  font-style: italic;
+  color: gainsboro;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: beige;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: beige;
+}
+
+::placeholder {
+  color: beige;
+}
+
+/* Media queries*/
+@media only screen and (max-width: 480px) {
+  .weather {
+    font-size: 20px;
+  }
+  .clock {
+    font-size: 50px;
+  }
+  .greeting {
+    font-size: 20px;
+  }
+  input {
+    width: 280px;
+    padding: 0;
+  }
+  .quote {
+    font-size: 15px;
+  }
+}
